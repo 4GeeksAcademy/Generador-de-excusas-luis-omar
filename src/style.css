@@ -6,12 +6,16 @@ body{
 
 #excuse{
     background: transparent;
-    color: blueviolet;
+    color: #ff4;
     border-color: blueviolet;
     font-size: 20px;
     text-shadow: 
         /*0 0 5px #0ff,*/
-        0 0 10px #0ff,
-        0 0 20px #0ff,
-        0 0 80px #0ff;
+        0 0 20px #fff,
+        0 0 80px #fff;
+}
+
+#imagen {
+    width: 50%;
+    height: auto;
 }
