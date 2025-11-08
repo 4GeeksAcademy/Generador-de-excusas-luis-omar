@@ -6,8 +6,8 @@ body{
 
 #excuse{
     background: transparent;
-    color: #ff4;
-    border-color: blueviolet;
+    color: rgb(255, 115, 68);
+    border-color: rgb(226, 104, 43);
     font-size: 20px;
     text-shadow: 
         /*0 0 5px #0ff,
