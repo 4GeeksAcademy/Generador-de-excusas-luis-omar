@@ -35,11 +35,11 @@ const accion = [
 ];
 
   
-  let quienAleatorio = generadorDeExcusas(quien);
-  let accionAleatorio = generadorDeExcusas(accion);
+  //let quienAleatorio = generadorDeExcusas(quien);
+  //let accionAleatorio = generadorDeExcusas(accion);
 
   let elemento = document.getElementById("excuse");
-  elemento.innerHTML = `${quienAleatorio} ${accionAleatorio}`;
+  elemento.innerHTML = `${generadorDeExcusas(quien)} ${generadorDeExcusas(accion)}`;
 
   /*console.log(elemento.innerHTML);*/
 };
